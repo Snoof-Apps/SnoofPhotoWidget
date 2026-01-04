@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snoof Photo Widget</string>
+    <string name="photo_widget_desc">Put a photo on your homescreen!</string>
+</resources>
