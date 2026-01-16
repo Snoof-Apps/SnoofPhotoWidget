@@ -38,7 +38,7 @@ public class PhotoWidgetConfigFile extends AppCompatActivity {
                     // PhotoPicker was cancelled or failed.
                     Toast.makeText(this, "Photo selection cancelled or failed.", Toast.LENGTH_SHORT).show();
                     setResult(RESULT_CANCELED);
-                    finish(); // Close the configuration activity
+                    finish(); // Close the configuration activit
                 }
             }
     );
