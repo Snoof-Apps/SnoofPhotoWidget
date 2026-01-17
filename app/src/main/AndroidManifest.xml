@@ -14,11 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SnoofPhotoWidget">
 
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        <activity android:name=".Snoof" android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="snoof.widget.IDENTIFIER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
